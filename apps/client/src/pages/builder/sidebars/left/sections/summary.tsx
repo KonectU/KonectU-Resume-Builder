@@ -1,6 +1,6 @@
-import { defaultSections } from "@reactive-resume/schema";
-import { RichInput } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { defaultSections } from "@Konect U -resume/schema";
+import { RichInput } from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 
 import { AiActions } from "@/client/components/ai-actions";
 import { useResumeStore } from "@/client/stores/resume";

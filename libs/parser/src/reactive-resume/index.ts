@@ -1,10 +1,10 @@
-import { ResumeData, resumeDataSchema } from "@reactive-resume/schema";
-import { Json } from "@reactive-resume/utils";
+import { ResumeData, resumeDataSchema } from "@Konect U -resume/schema";
+import { Json } from "@Konect U -resume/utils";
 import { Schema } from "zod";
 
 import { Parser } from "../interfaces/parser";
 
-export class ReactiveResumeParser implements Parser<Json, ResumeData> {
+export class Konect U ResumeParser implements Parser<Json, ResumeData> {
   schema: Schema;
 
   constructor() {

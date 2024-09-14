@@ -1,4 +1,4 @@
-import { kebabCase } from "@reactive-resume/utils";
+import { kebabCase } from "@Konect U -resume/utils";
 import { createZodDto } from "nestjs-zod/dto";
 import { z } from "nestjs-zod/z";
 

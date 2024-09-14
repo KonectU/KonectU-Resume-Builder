@@ -1,4 +1,4 @@
-import { MessageDto } from "@reactive-resume/dto";
+import { MessageDto } from "@Konect U -resume/dto";
 import { AxiosInstance, AxiosResponse } from "axios";
 
 export const refreshToken = async (axios: AxiosInstance) => {

@@ -1,7 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { ArrowLeft } from "@phosphor-icons/react";
-import { forgotPasswordSchema } from "@reactive-resume/dto";
+import { forgotPasswordSchema } from "@Konect U -resume/dto";
 import {
   Alert,
   AlertDescription,
@@ -13,7 +13,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -46,7 +46,7 @@ export const ForgotPasswordPage = () => {
       <div className="space-y-8">
         <Helmet>
           <title>
-            {t`You've got mail!`} - {t`Reactive Resume`}
+            {t`You've got mail!`} - {t`Konect U  Resume`}
           </title>
         </Helmet>
 

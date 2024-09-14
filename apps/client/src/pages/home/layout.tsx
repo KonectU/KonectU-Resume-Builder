@@ -1,4 +1,4 @@
-import { ScrollArea } from "@reactive-resume/ui";
+import { ScrollArea } from "@Konect U -resume/ui";
 import { Outlet } from "react-router-dom";
 
 import { Footer } from "./components/footer";

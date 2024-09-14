@@ -8,8 +8,8 @@ import {
   ContextMenuContent,
   ContextMenuItem,
   ContextMenuTrigger,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 import { motion } from "framer-motion";
 
 export type SectionListItemProps = {

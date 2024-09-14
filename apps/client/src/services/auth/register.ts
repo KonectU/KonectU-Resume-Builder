@@ -1,4 +1,4 @@
-import { AuthResponseDto, RegisterDto } from "@reactive-resume/dto";
+import { AuthResponseDto, RegisterDto } from "@Konect U -resume/dto";
 import { useMutation } from "@tanstack/react-query";
 import { AxiosResponse } from "axios";
 

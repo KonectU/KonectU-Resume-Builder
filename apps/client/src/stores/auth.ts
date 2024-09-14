@@ -1,4 +1,4 @@
-import { UserDto } from "@reactive-resume/dto";
+import { UserDto } from "@Konect U -resume/dto";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 

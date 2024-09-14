@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { CircleNotch, FileJs, FilePdf } from "@phosphor-icons/react";
-import { buttonVariants, Card, CardContent, CardDescription, CardTitle } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { buttonVariants, Card, CardContent, CardDescription, CardTitle } from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 import { saveAs } from "file-saver";
 
 import { usePrintResume } from "@/client/services/resume/print";
@@ -11,7 +11,7 @@ import { getSectionIcon } from "../shared/section-icon";
 
 const onJsonExport = () => {
   const { resume } = useResumeStore.getState();
-  const filename = `reactive_resume-${resume.id}.json`;
+  const filename = `Konect U _resume-${resume.id}.json`;
   const resumeJSON = JSON.stringify(resume.data, null, 2);
 
   saveAs(new Blob([resumeJSON], { type: "application/json" }), filename);

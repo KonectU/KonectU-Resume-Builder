@@ -15,8 +15,8 @@ import {
   User,
   Users,
 } from "@phosphor-icons/react";
-import { defaultSection, SectionKey, SectionWithItem } from "@reactive-resume/schema";
-import { Button, ButtonProps, Tooltip } from "@reactive-resume/ui";
+import { defaultSection, SectionKey, SectionWithItem } from "@Konect U -resume/schema";
+import { Button, ButtonProps, Tooltip } from "@Konect U -resume/ui";
 import get from "lodash.get";
 
 import { useResumeStore } from "@/client/stores/resume";

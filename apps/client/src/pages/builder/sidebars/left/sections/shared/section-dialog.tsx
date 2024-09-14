@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { createId } from "@paralleldrive/cuid2";
 import { CopySimple, PencilSimple, Plus } from "@phosphor-icons/react";
-import { SectionItem, SectionWithItem } from "@reactive-resume/schema";
+import { SectionItem, SectionWithItem } from "@Konect U -resume/schema";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -18,7 +18,7 @@ import {
   DialogHeader,
   DialogTitle,
   Form,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { produce } from "immer";
 import get from "lodash.get";
 import { useEffect } from "react";

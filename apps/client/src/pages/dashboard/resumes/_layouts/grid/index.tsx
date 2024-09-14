@@ -1,4 +1,4 @@
-import { sortByDate } from "@reactive-resume/utils";
+import { sortByDate } from "@Konect U -resume/utils";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { useResumes } from "@/client/services/resume";

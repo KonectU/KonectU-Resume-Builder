@@ -14,20 +14,20 @@ import {
   defaultResumeData,
   defaultSkill,
   defaultVolunteer,
-} from "@reactive-resume/schema";
-import { isUrl, Json } from "@reactive-resume/utils";
+} from "@Konect U -resume/schema";
+import { isUrl, Json } from "@Konect U -resume/utils";
 import { Schema } from "zod";
 
 import { Parser } from "../interfaces/parser";
-import { ReactiveResumeV3, reactiveResumeV3Schema } from "./schema";
+import { Konect U ResumeV3, Konect U ResumeV3Schema } from "./schema";
 
 export * from "./schema";
 
-export class ReactiveResumeV3Parser implements Parser<Json, ReactiveResumeV3> {
+export class Konect U ResumeV3Parser implements Parser<Json, Konect U ResumeV3> {
   schema: Schema;
 
   constructor() {
-    this.schema = reactiveResumeV3Schema;
+    this.schema = Konect U ResumeV3Schema;
   }
 
   readFile(file: File): Promise<Json> {
@@ -55,10 +55,10 @@ export class ReactiveResumeV3Parser implements Parser<Json, ReactiveResumeV3> {
   }
 
   validate(data: Json) {
-    return this.schema.parse(data) as ReactiveResumeV3;
+    return this.schema.parse(data) as Konect U ResumeV3;
   }
 
-  convert(data: ReactiveResumeV3) {
+  convert(data: Konect U ResumeV3) {
     const result = JSON.parse(JSON.stringify(defaultResumeData));
 
     // Basics

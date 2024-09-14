@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t, Trans } from "@lingui/macro";
-import { defaultProfile, profileSchema } from "@reactive-resume/schema";
+import { defaultProfile, profileSchema } from "@Konect U -resume/schema";
 import {
   Avatar,
   AvatarImage,
@@ -11,7 +11,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { useCallback } from "react";
 import { useForm } from "react-hook-form";
 import { useDebounceValue } from "usehooks-ts";

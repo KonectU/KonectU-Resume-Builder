@@ -1,5 +1,5 @@
-import { useTheme } from "@reactive-resume/hooks";
-import { cn, pageSizeMap } from "@reactive-resume/utils";
+import { useTheme } from "@Konect U -resume/hooks";
+import { cn, pageSizeMap } from "@Konect U -resume/utils";
 
 import { useArtboardStore } from "../store/artboard";
 

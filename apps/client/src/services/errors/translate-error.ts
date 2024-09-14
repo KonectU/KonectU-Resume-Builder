@@ -1,5 +1,5 @@
 import { t } from "@lingui/macro";
-import { ErrorMessage } from "@reactive-resume/utils";
+import { ErrorMessage } from "@Konect U -resume/utils";
 
 export const translateError = (error: ErrorMessage) => {
   switch (error) {

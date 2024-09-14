@@ -12,7 +12,7 @@ import {
   MagnifyingGlassMinus,
   MagnifyingGlassPlus,
 } from "@phosphor-icons/react";
-import { Button, Separator, Toggle, Tooltip } from "@reactive-resume/ui";
+import { Button, Separator, Toggle, Tooltip } from "@Konect U -resume/ui";
 import { motion } from "framer-motion";
 
 import { useToast } from "@/client/hooks/use-toast";

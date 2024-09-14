@@ -1,7 +1,7 @@
 import { HttpService } from "@nestjs/axios";
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { ContributorDto } from "@reactive-resume/dto";
+import { ContributorDto } from "@Konect U -resume/dto";
 
 import { Config } from "../config/schema";
 
@@ -20,7 +20,7 @@ export class ContributorsService {
 
   async fetchGitHubContributors() {
     const response = await this.httpService.axiosRef.get(
-      `https://api.github.com/repos/AmruthPillai/Reactive-Resume/contributors`,
+      `https://api.github.com/repos/AmruthPillai/Konect U -Resume/contributors`,
     );
     const data = response.data as GitHubResponse;
 

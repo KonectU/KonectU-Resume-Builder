@@ -1,7 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { Check, UploadSimple, Warning } from "@phosphor-icons/react";
-import { UpdateUserDto, updateUserSchema } from "@reactive-resume/dto";
+import { UpdateUserDto, updateUserSchema } from "@Konect U -resume/dto";
 import {
   Button,
   buttonVariants,
@@ -13,8 +13,8 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";

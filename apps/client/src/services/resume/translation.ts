@@ -1,4 +1,4 @@
-import { Language } from "@reactive-resume/utils";
+import { Language } from "@Konect U -resume/utils";
 import { useQuery } from "@tanstack/react-query";
 
 import { LANGUAGES_KEY } from "@/client/constants/query-keys";

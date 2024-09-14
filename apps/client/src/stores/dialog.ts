@@ -1,4 +1,4 @@
-import { SectionKey } from "@reactive-resume/schema";
+import { SectionKey } from "@Konect U -resume/schema";
 import { create } from "zustand";
 
 export type DialogName = "resume" | "lock" | "import" | "two-factor" | SectionKey;

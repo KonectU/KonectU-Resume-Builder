@@ -1,16 +1,16 @@
 export const templatesList = [
-  "azurill",
-  "bronzor",
-  "chikorita",
+  "Ethan",
+  "Daniel",
+  "James",
   "ditto",
   "gengar",
   "glalie",
-  "kakuna",
+  "Aiden",
   "leafish",
-  "nosepass",
-  "onyx",
-  "pikachu",
-  "rhyhorn",
+  "Marcus",
+  "Gabriel",
+  "Liam",
+  "Noah",
 ] as const;
 
 export type Template = (typeof templatesList)[number];

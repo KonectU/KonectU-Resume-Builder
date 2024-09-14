@@ -1,4 +1,4 @@
-import { ResumeData } from "@reactive-resume/schema";
+import { ResumeData } from "@Konect U -resume/schema";
 import { create } from "zustand";
 
 export type ArtboardStore = {

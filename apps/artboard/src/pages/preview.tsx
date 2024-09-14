@@ -1,5 +1,5 @@
-import { SectionKey } from "@reactive-resume/schema";
-import { Template } from "@reactive-resume/utils";
+import { SectionKey } from "@Konect U -resume/schema";
+import { Template } from "@Konect U -resume/utils";
 import { useMemo } from "react";
 
 import { Page } from "../components/page";

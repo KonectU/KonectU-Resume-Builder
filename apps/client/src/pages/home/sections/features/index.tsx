@@ -25,7 +25,7 @@ import {
   TextAa,
   Translate,
 } from "@phosphor-icons/react";
-import { cn, languages, templatesList } from "@reactive-resume/utils";
+import { cn, languages, templatesList } from "@Konect U -resume/utils";
 import { motion } from "framer-motion";
 
 type Feature = {
@@ -104,7 +104,7 @@ export const FeaturesSection = () => {
         <div className="space-y-6 leading-loose">
           <h2 className="text-4xl font-bold">{t`Rich in features, not in pricing.`}</h2>
           <p className="max-w-4xl text-base leading-relaxed">
-            {t`Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection.`}
+            {t`Konect U  Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection.`}
           </p>
 
           <IconContext.Provider value={{ size: 14, weight: "bold" }}>

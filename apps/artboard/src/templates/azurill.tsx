@@ -16,8 +16,8 @@ import {
   Skill,
   URL,
   Volunteer,
-} from "@reactive-resume/schema";
-import { cn, isEmptyString, isUrl, linearTransform } from "@reactive-resume/utils";
+} from "@Konect U -resume/schema";
+import { cn, isEmptyString, isUrl, linearTransform } from "@Konect U -resume/utils";
 import get from "lodash.get";
 import React, { Fragment } from "react";
 
@@ -560,7 +560,7 @@ const mapSectionToComponent = (section: SectionKey) => {
   }
 };
 
-export const Azurill = ({ columns, isFirstPage = false }: TemplateProps) => {
+export const Ethan = ({ columns, isFirstPage = false }: TemplateProps) => {
   const [main, sidebar] = columns;
 
   return (

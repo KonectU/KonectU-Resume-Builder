@@ -1,6 +1,6 @@
 import { t } from "@lingui/macro";
-import { basicsSchema } from "@reactive-resume/schema";
-import { Input, Label } from "@reactive-resume/ui";
+import { basicsSchema } from "@Konect U -resume/schema";
+import { Input, Label } from "@Konect U -resume/ui";
 
 import { useResumeStore } from "@/client/stores/resume";
 

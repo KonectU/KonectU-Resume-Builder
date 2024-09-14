@@ -7,8 +7,8 @@ import {
   CardDescription,
   CardFooter,
   CardTitle,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 
 import { getSectionIcon } from "../shared/section-icon";
 
@@ -19,7 +19,7 @@ const DonateCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            I built Reactive Resume mostly by myself during my spare time, with a lot of help from
+            I built Konect U  Resume mostly by myself during my spare time, with a lot of help from
             other great open-source contributors.
           </p>
           <p>
@@ -31,13 +31,13 @@ const DonateCard = () => (
     </CardContent>
     <CardFooter>
       <a
-        href="https://opencollective.com/reactive-resume"
+        href="https://opencollective.com/Konect U -resume"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
       >
         <HandHeart size={14} weight="bold" className="mr-2" />
-        <span className="line-clamp-1">{t`Donate to Reactive Resume`}</span>
+        <span className="line-clamp-1">{t`Donate to Konect U  Resume`}</span>
       </a>
     </CardFooter>
   </Card>
@@ -60,7 +60,7 @@ const IssuesCard = () => (
     </CardContent>
     <CardFooter className="space-x-4">
       <a
-        href="https://github.com/AmruthPillai/Reactive-Resume/issues/new/choose"
+        href="https://github.com/AmruthPillai/Konect U -Resume/issues/new/choose"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
@@ -84,7 +84,7 @@ const DocumentationCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            The community has spent a lot of time writing the documentation for Reactive Resume, and
+            The community has spent a lot of time writing the documentation for Konect U  Resume, and
             I'm sure it will help you get started with the app.
           </p>
           <p>

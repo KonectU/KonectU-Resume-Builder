@@ -16,8 +16,8 @@ import {
   Skill,
   URL,
   Volunteer,
-} from "@reactive-resume/schema";
-import { cn, isEmptyString, isUrl } from "@reactive-resume/utils";
+} from "@Konect U -resume/schema";
+import { cn, isEmptyString, isUrl } from "@Konect U -resume/utils";
 import get from "lodash.get";
 import { Fragment } from "react";
 
@@ -574,7 +574,7 @@ const mapSectionToComponent = (section: SectionKey) => {
   }
 };
 
-export const Rhyhorn = ({ columns, isFirstPage = false }: TemplateProps) => {
+export const Noah = ({ columns, isFirstPage = false }: TemplateProps) => {
   const [main, sidebar] = columns;
 
   return (

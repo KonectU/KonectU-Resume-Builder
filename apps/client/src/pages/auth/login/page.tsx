@@ -1,8 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t, Trans } from "@lingui/macro";
 import { ArrowRight } from "@phosphor-icons/react";
-import { loginSchema } from "@reactive-resume/dto";
-import { usePasswordToggle } from "@reactive-resume/hooks";
+import { loginSchema } from "@Konect U -resume/dto";
+import { usePasswordToggle } from "@Konect U -resume/hooks";
 import {
   Alert,
   AlertTitle,
@@ -15,8 +15,8 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 import { useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -52,7 +52,7 @@ export const LoginPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Sign in to your account`} - {t`Reactive Resume`}
+          {t`Sign in to your account`} - {t`Konect U  Resume`}
         </title>
       </Helmet>
 

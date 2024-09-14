@@ -12,7 +12,7 @@ import {
   Translate,
   TrendUp,
 } from "@phosphor-icons/react";
-import { Button, ButtonProps, Tooltip } from "@reactive-resume/ui";
+import { Button, ButtonProps, Tooltip } from "@Konect U -resume/ui";
 
 export type MetadataKey =
   | "template"

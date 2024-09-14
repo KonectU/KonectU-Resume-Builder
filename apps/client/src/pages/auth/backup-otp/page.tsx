@@ -1,8 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { ArrowLeft } from "@phosphor-icons/react";
-import { twoFactorBackupSchema } from "@reactive-resume/dto";
-import { usePasswordToggle } from "@reactive-resume/hooks";
+import { twoFactorBackupSchema } from "@Konect U -resume/dto";
+import { usePasswordToggle } from "@Konect U -resume/hooks";
 import {
   Button,
   Form,
@@ -12,7 +12,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -49,7 +49,7 @@ export const BackupOtpPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Use your backup code`} - {t`Reactive Resume`}
+          {t`Use your backup code`} - {t`Konect U  Resume`}
         </title>
       </Helmet>
 

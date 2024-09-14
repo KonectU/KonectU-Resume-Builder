@@ -1,5 +1,5 @@
 import { createId } from "@paralleldrive/cuid2";
-import { ToastActionElement, ToastProps } from "@reactive-resume/ui";
+import { ToastActionElement, ToastProps } from "@Konect U -resume/ui";
 import { useEffect, useState } from "react";
 
 const TOAST_LIMIT = 1;

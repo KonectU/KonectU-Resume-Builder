@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { ArrowRight } from "@phosphor-icons/react";
-import { Badge, buttonVariants } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { Badge, buttonVariants } from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 
@@ -62,7 +62,7 @@ export const HeroSection = () => (
                 width={3600}
                 height={2078}
                 src="/screenshots/builder.jpg"
-                alt="Reactive Resume - Screenshot - Builder Screen"
+                alt="Konect U  Resume - Screenshot - Builder Screen"
                 className="w-[76rem] rounded-lg bg-background/5 shadow-2xl ring-1 ring-foreground/10"
               />
             </Tilt>

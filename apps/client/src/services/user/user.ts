@@ -1,4 +1,4 @@
-import { UserDto } from "@reactive-resume/dto";
+import { UserDto } from "@Konect U -resume/dto";
 import { useQuery } from "@tanstack/react-query";
 import { AxiosResponse } from "axios";
 import { useEffect } from "react";

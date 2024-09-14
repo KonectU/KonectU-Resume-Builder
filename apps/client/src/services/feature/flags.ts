@@ -1,4 +1,4 @@
-import { FeatureDto } from "@reactive-resume/dto";
+import { FeatureDto } from "@Konect U -resume/dto";
 import { useQuery } from "@tanstack/react-query";
 
 import { axios } from "@/client/libs/axios";

@@ -1,5 +1,5 @@
-import { useTheme } from "@reactive-resume/hooks";
-import { cn } from "@reactive-resume/utils";
+import { useTheme } from "@Konect U -resume/hooks";
+import { cn } from "@Konect U -resume/utils";
 
 type Props = {
   size?: number;
@@ -27,7 +27,7 @@ export const Logo = ({ size = 32, className }: Props) => {
       src={src}
       width={size}
       height={size}
-      alt="Reactive Resume"
+      alt="Konect U  Resume"
       className={cn("rounded-sm", className)}
     />
   );

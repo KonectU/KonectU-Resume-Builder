@@ -1,4 +1,4 @@
-import { useTheme } from "@reactive-resume/hooks";
+import { useTheme } from "@Konect U -resume/hooks";
 import { useEffect } from "react";
 
 type Props = { children: React.ReactNode };

@@ -6,11 +6,11 @@ import {
   JsonResumeParser,
   LinkedIn,
   LinkedInParser,
-  ReactiveResumeParser,
-  ReactiveResumeV3,
-  ReactiveResumeV3Parser,
-} from "@reactive-resume/parser";
-import { ResumeData } from "@reactive-resume/schema";
+  Konect U ResumeParser,
+  Konect U ResumeV3,
+  Konect U ResumeV3Parser,
+} from "@Konect U -resume/parser";
+import { ResumeData } from "@Konect U -resume/schema";
 import {
   Button,
   Dialog,
@@ -34,7 +34,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
@@ -45,8 +45,8 @@ import { useImportResume } from "@/client/services/resume/import";
 import { useDialog } from "@/client/stores/dialog";
 
 enum ImportType {
-  "reactive-resume-json" = "reactive-resume-json",
-  "reactive-resume-v3-json" = "reactive-resume-v3-json",
+  "Konect U -resume-json" = "Konect U -resume-json",
+  "Konect U -resume-v3-json" = "Konect U -resume-v3-json",
   "json-resume-json" = "json-resume-json",
   "linkedin-data-export-zip" = "linkedin-data-export-zip",
 }
@@ -66,7 +66,7 @@ type ValidationResult =
   | {
       isValid: true;
       type: ImportType;
-      result: ResumeData | ReactiveResumeV3 | LinkedIn | JsonResume;
+      result: ResumeData | Konect U ResumeV3 | LinkedIn | JsonResume;
     };
 
 export const ImportDialog = () => {
@@ -78,7 +78,7 @@ export const ImportDialog = () => {
 
   const form = useForm<FormValues>({
     defaultValues: {
-      type: ImportType["reactive-resume-json"],
+      type: ImportType["Konect U -resume-json"],
     },
     resolver: zodResolver(formSchema),
   });
@@ -103,16 +103,16 @@ export const ImportDialog = () => {
     try {
       const { file, type } = formSchema.parse(form.getValues());
 
-      if (type === ImportType["reactive-resume-json"]) {
-        const parser = new ReactiveResumeParser();
+      if (type === ImportType["Konect U -resume-json"]) {
+        const parser = new Konect U ResumeParser();
         const data = await parser.readFile(file);
         const result = parser.validate(data);
 
         setValidationResult({ isValid: true, type, result });
       }
 
-      if (type === ImportType["reactive-resume-v3-json"]) {
-        const parser = new ReactiveResumeV3Parser();
+      if (type === ImportType["Konect U -resume-v3-json"]) {
+        const parser = new Konect U ResumeV3Parser();
         const data = await parser.readFile(file);
         const result = parser.validate(data);
 
@@ -155,16 +155,16 @@ export const ImportDialog = () => {
     if (!validationResult?.isValid || validationResult.type !== type) return;
 
     try {
-      if (type === ImportType["reactive-resume-json"]) {
-        const parser = new ReactiveResumeParser();
+      if (type === ImportType["Konect U -resume-json"]) {
+        const parser = new Konect U ResumeParser();
         const data = parser.convert(validationResult.result as ResumeData);
 
         await importResume({ data });
       }
 
-      if (type === ImportType["reactive-resume-v3-json"]) {
-        const parser = new ReactiveResumeV3Parser();
-        const data = parser.convert(validationResult.result as ReactiveResumeV3);
+      if (type === ImportType["Konect U -resume-v3-json"]) {
+        const parser = new Konect U ResumeV3Parser();
+        const data = parser.convert(validationResult.result as Konect U ResumeV3);
 
         await importResume({ data });
       }
@@ -211,7 +211,7 @@ export const ImportDialog = () => {
                 </div>
               </DialogTitle>
               <DialogDescription>
-                {t`Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing.`}
+                {t`Upload a file from one of the accepted sources to parse existing data and import it into Konect U  Resume for easier editing.`}
               </DialogDescription>
             </DialogHeader>
 
@@ -228,12 +228,12 @@ export const ImportDialog = () => {
                       </SelectTrigger>
                       <SelectContent>
                         {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-                        <SelectItem value="reactive-resume-json">
-                          Reactive Resume (.json)
+                        <SelectItem value="Konect U -resume-json">
+                          Konect U  Resume (.json)
                         </SelectItem>
                         {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-                        <SelectItem value="reactive-resume-v3-json">
-                          Reactive Resume v3 (.json)
+                        <SelectItem value="Konect U -resume-v3-json">
+                          Konect U  Resume v3 (.json)
                         </SelectItem>
                         {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
                         <SelectItem value="json-resume-json">JSON Resume (.json)</SelectItem>

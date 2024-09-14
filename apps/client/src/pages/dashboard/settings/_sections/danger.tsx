@@ -9,7 +9,7 @@ import {
   FormItem,
   FormLabel,
   Input,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useCounter } from "usehooks-ts";

@@ -1,5 +1,5 @@
 import { t, Trans } from "@lingui/macro";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@Konect U -resume/utils";
 
 type Props = {
   className?: string;
@@ -18,7 +18,7 @@ export const Copyright = ({ className }: Props) => (
         <a
           target="_blank"
           rel="noopener noreferrer nofollow"
-          href="https://github.com/AmruthPillai/Reactive-Resume/blob/main/LICENSE.md"
+          href="https://github.com/AmruthPillai/Konect U -Resume/blob/main/LICENSE.md"
         >
           MIT
         </a>
@@ -32,7 +32,7 @@ export const Copyright = ({ className }: Props) => (
     </span>
 
     <span className="mt-4">
-      {t`Reactive Resume`} {"v" + appVersion}
+      {t`Konect U  Resume`} {"v" + appVersion}
     </span>
   </div>
 );

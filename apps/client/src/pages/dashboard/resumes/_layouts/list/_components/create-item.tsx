@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { Plus } from "@phosphor-icons/react";
-import { ResumeDto } from "@reactive-resume/dto";
-import { KeyboardShortcut } from "@reactive-resume/ui";
+import { ResumeDto } from "@Konect U -resume/dto";
+import { KeyboardShortcut } from "@Konect U -resume/ui";
 
 import { useDialog } from "@/client/stores/dialog";
 

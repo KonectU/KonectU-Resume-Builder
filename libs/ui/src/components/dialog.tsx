@@ -1,6 +1,6 @@
 import { X } from "@phosphor-icons/react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@Konect U -resume/utils";
 import { forwardRef } from "react";
 
 export const Dialog = DialogPrimitive.Root;

@@ -1,8 +1,8 @@
 import { t } from "@lingui/macro";
 import { CircleNotch, FilePdf } from "@phosphor-icons/react";
-import { ResumeDto } from "@reactive-resume/dto";
-import { Button } from "@reactive-resume/ui";
-import { pageSizeMap } from "@reactive-resume/utils";
+import { ResumeDto } from "@Konect U -resume/dto";
+import { Button } from "@Konect U -resume/ui";
+import { pageSizeMap } from "@Konect U -resume/utils";
 import { useCallback, useEffect, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, LoaderFunction, redirect, useLoaderData } from "react-router-dom";
@@ -70,7 +70,7 @@ export const PublicResumePage = () => {
     <div>
       <Helmet>
         <title>
-          {title} - {t`Reactive Resume`}
+          {title} - {t`Konect U  Resume`}
         </title>
       </Helmet>
 
@@ -91,7 +91,7 @@ export const PublicResumePage = () => {
           <Button size="sm" variant="ghost" className="space-x-1.5 text-xs font-normal">
             <span>{t`Built with`}</span>
             <Icon size={12} />
-            <span>{t`Reactive Resume`}</span>
+            <span>{t`Konect U  Resume`}</span>
           </Button>
         </Link>
       </div>

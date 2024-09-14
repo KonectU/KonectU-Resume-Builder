@@ -1,6 +1,6 @@
-import { useBreakpoint } from "@reactive-resume/hooks";
-import { Panel, PanelGroup, PanelResizeHandle, Sheet, SheetContent } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { useBreakpoint } from "@Konect U -resume/hooks";
+import { Panel, PanelGroup, PanelResizeHandle, Sheet, SheetContent } from "@Konect U -resume/ui";
+import { cn } from "@Konect U -resume/utils";
 import { Outlet } from "react-router-dom";
 
 import { useBuilderStore } from "@/client/stores/builder";

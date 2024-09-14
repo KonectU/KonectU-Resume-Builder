@@ -1,4 +1,4 @@
-import { DeleteResumeDto, ResumeDto } from "@reactive-resume/dto";
+import { DeleteResumeDto, ResumeDto } from "@Konect U -resume/dto";
 import { useMutation } from "@tanstack/react-query";
 import { AxiosResponse } from "axios";
 

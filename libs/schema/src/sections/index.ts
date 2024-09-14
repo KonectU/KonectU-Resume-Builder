@@ -1,4 +1,4 @@
-import { FilterKeys } from "@reactive-resume/utils";
+import { FilterKeys } from "@Konect U -resume/utils";
 import { z } from "zod";
 
 import { idSchema } from "../shared";

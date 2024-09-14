@@ -1,4 +1,4 @@
-import { authResponseSchema, UserDto } from "@reactive-resume/dto";
+import { authResponseSchema, UserDto } from "@Konect U -resume/dto";
 import { LoaderFunction, redirect } from "react-router-dom";
 
 import { USER_KEY } from "@/client/constants/query-keys";

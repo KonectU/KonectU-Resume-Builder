@@ -1,5 +1,5 @@
 import { CaretDown, Check } from "@phosphor-icons/react";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@Konect U -resume/utils";
 import { forwardRef, useState } from "react";
 
 import { Button } from "./button";

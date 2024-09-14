@@ -1,4 +1,4 @@
-import { ResumeDto } from "@reactive-resume/dto";
+import { ResumeDto } from "@Konect U -resume/dto";
 import { useQuery } from "@tanstack/react-query";
 import { AxiosResponse } from "axios";
 

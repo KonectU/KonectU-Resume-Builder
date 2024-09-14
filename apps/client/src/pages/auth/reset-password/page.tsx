@@ -1,7 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t, Trans } from "@lingui/macro";
-import { resetPasswordSchema } from "@reactive-resume/dto";
-import { usePasswordToggle } from "@reactive-resume/hooks";
+import { resetPasswordSchema } from "@Konect U -resume/dto";
+import { usePasswordToggle } from "@Konect U -resume/hooks";
 import {
   Button,
   Form,
@@ -12,7 +12,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
+} from "@Konect U -resume/ui";
 import { useEffect, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -57,7 +57,7 @@ export const ResetPasswordPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Reset your password`} - {t`Reactive Resume`}
+          {t`Reset your password`} - {t`Konect U  Resume`}
         </title>
       </Helmet>
 

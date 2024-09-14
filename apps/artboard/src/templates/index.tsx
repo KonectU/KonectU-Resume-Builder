@@ -1,28 +1,28 @@
-import { Template } from "@reactive-resume/utils";
+import { Template } from "@Konect U -resume/utils";
 
-import { Azurill } from "./azurill";
-import { Bronzor } from "./bronzor";
-import { Chikorita } from "./chikorita";
+import { Ethan } from "./Ethan";
+import { Daniel } from "./Daniel";
+import { James } from "./James";
 import { Ditto } from "./ditto";
 import { Gengar } from "./gengar";
 import { Glalie } from "./glalie";
-import { Kakuna } from "./kakuna";
+import { Aiden } from "./Aiden";
 import { Leafish } from "./leafish";
-import { Nosepass } from "./nosepass";
-import { Onyx } from "./onyx";
-import { Pikachu } from "./pikachu";
-import { Rhyhorn } from "./rhyhorn";
+import { Marcus } from "./Marcus";
+import { Gabriel } from "./Gabriel";
+import { Liam } from "./Liam";
+import { Noah } from "./Noah";
 
 export const getTemplate = (template: Template) => {
   switch (template) {
-    case "azurill": {
-      return Azurill;
+    case "Ethan": {
+      return Ethan;
     }
-    case "bronzor": {
-      return Bronzor;
+    case "Daniel": {
+      return Daniel;
     }
-    case "chikorita": {
-      return Chikorita;
+    case "James": {
+      return James;
     }
     case "ditto": {
       return Ditto;
@@ -33,26 +33,26 @@ export const getTemplate = (template: Template) => {
     case "glalie": {
       return Glalie;
     }
-    case "kakuna": {
-      return Kakuna;
+    case "Aiden": {
+      return Aiden;
     }
     case "leafish": {
       return Leafish;
     }
-    case "nosepass": {
-      return Nosepass;
+    case "Marcus": {
+      return Marcus;
     }
-    case "onyx": {
-      return Onyx;
+    case "Gabriel": {
+      return Gabriel;
     }
-    case "pikachu": {
-      return Pikachu;
+    case "Liam": {
+      return Liam;
     }
-    case "rhyhorn": {
-      return Rhyhorn;
+    case "Noah": {
+      return Noah;
     }
     default: {
-      return Onyx;
+      return Gabriel;
     }
   }
 };

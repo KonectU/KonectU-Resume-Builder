@@ -1,4 +1,4 @@
-import { ForgotPasswordDto } from "@reactive-resume/dto";
+import { ForgotPasswordDto } from "@Konect U -resume/dto";
 import { useMutation } from "@tanstack/react-query";
 import { AxiosResponse } from "axios";
 

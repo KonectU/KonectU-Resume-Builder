@@ -1,5 +1,5 @@
 import { t } from "@lingui/macro";
-import { ResumeDto } from "@reactive-resume/dto";
+import { ResumeDto } from "@Konect U -resume/dto";
 import { useCallback, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { LoaderFunction, redirect } from "react-router-dom";
@@ -40,7 +40,7 @@ export const BuilderPage = () => {
     <>
       <Helmet>
         <title>
-          {title} - {t`Reactive Resume`}
+          {title} - {t`Konect U  Resume`}
         </title>
       </Helmet>
 

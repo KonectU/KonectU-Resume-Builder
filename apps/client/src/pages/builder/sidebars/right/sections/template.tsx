@@ -1,6 +1,6 @@
 import { t } from "@lingui/macro";
-import { AspectRatio } from "@reactive-resume/ui";
-import { cn, templatesList } from "@reactive-resume/utils";
+import { AspectRatio } from "@Konect U -resume/ui";
+import { cn, templatesList } from "@Konect U -resume/utils";
 import { motion } from "framer-motion";
 
 import { useResumeStore } from "@/client/stores/resume";

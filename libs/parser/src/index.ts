@@ -1,4 +1,4 @@
 export * from "./json-resume";
 export * from "./linkedin";
-export * from "./reactive-resume";
-export * from "./reactive-resume-v3";
+export * from "./Konect U -resume";
+export * from "./Konect U -resume-v3";

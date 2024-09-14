@@ -1,4 +1,4 @@
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@Konect U -resume/utils";
 import { type VariantProps } from "class-variance-authority";
 
 import { badgeVariants } from "../variants/badge";
