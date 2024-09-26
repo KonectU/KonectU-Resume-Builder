@@ -4,7 +4,7 @@ export const queryClient = new QueryClient({
   defaultOptions: {
     mutations: {
       retry: false,
-    },
+    }, //exporting
     queries: {
       retry: false,
       refetchOnMount: false,
