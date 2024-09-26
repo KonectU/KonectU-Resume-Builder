@@ -1,6 +1,6 @@
 import { ReactParallaxTiltProps } from "react-parallax-tilt";
 
-export const defaultTiltProps: ReactParallaxTiltProps = {
+export const defaultTiltProps: ReactParallaxTiltProps = {//export
   scale: 1.05,
   tiltMaxAngleX: 8,
   tiltMaxAngleY: 8,
