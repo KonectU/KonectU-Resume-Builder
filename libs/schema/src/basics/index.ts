@@ -4,7 +4,7 @@ import { defaultUrl, urlSchema } from "../shared";
 import { customFieldSchema } from "./custom";
 
 // Schema
-export const basicsSchema = z.object({
+export const basicsSchema = z.object({ 
   name: z.string(),
   headline: z.string(),
   email: z.literal("").or(z.string().email()),
