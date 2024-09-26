@@ -5,7 +5,7 @@ import { Daniel } from "./Daniel";
 import { James } from "./James";
 import { Ditto } from "./ditto";
 import { Gengar } from "./gengar";
-import { Glalie } from "./glalie";
+import { Glalie } from "./glalie";//Glalie
 import { Aiden } from "./Aiden";
 import { Leafish } from "./leafish";
 import { Marcus } from "./Marcus";
