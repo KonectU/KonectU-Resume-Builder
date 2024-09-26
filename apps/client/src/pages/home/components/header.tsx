@@ -5,7 +5,7 @@ import { Logo } from "@/client/components/logo";
 
 import { DonationBanner } from "./donation-banner";
 
-export const Header = () => (
+export const Header = () => ( //exporting
   <motion.header
     className="fixed inset-x-0 top-0 z-20"
     initial={{ opacity: 0, y: -50 }}
