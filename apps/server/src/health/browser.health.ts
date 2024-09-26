@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { HealthIndicator, HealthIndicatorResult } from "@nestjs/terminus";
 
-import { PrinterService } from "../printer/printer.service";
+import { PrinterService } from "../printer/printer.service";//import
 
 @Injectable()
 export class BrowserHealthIndicator extends HealthIndicator {
