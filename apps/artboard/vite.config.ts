@@ -14,7 +14,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
 
-  server: {
+  server: {  //servering
     host: true,
     port: 6173,
     fs: { allow: [searchForWorkspaceRoot(process.cwd())] },
