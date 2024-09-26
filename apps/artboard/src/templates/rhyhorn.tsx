@@ -3,7 +3,7 @@ import {
   Certification,
   CustomSection,
   CustomSectionGroup,
-  Education,
+  Education,//Education
   Experience,
   Interest,
   Language,
