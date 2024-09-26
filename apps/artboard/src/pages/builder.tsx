@@ -1,4 +1,4 @@
-import { SectionKey } from "@Konect U -resume/schema";
+import { SectionKey } from "@Konect U -resume/schema"; //section
 import { pageSizeMap, Template } from "@Konect U -resume/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useRef } from "react";
