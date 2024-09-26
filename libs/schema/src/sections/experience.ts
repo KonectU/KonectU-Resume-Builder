@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { defaultItem, defaultUrl, itemSchema, urlSchema } from "../shared";
+import { defaultItem, defaultUrl, itemSchema, urlSchema } from "../shared"; 
 
 // Schema
 export const experienceSchema = itemSchema.extend({
