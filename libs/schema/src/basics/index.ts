@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { defaultUrl, urlSchema } from "../shared";
+import { defaultUrl, urlSchema } from "../shared"; 
 import { customFieldSchema } from "./custom";
 
 // Schema
