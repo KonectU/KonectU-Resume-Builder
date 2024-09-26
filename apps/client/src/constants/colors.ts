@@ -12,7 +12,7 @@ export const colors: string[] = [
   "#0891b2", // cyan-600
   "#0284c7", // sky-600
   "#2563eb", // blue-600
-  "#4f46e5", // indigo-600
+  "#4f46e5", // indigo-600-
   "#7c3aed", // violet-600
   "#9333ea", // purple-600
   "#c026d3", // fuchsia-600
