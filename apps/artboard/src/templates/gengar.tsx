@@ -7,7 +7,7 @@ import {
   Experience,
   Interest,
   Language,
-  Profile,
+  Profile,//profile
   Project,
   Publication,
   Reference,
