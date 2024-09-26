@@ -1,4 +1,4 @@
-import { cva } from "class-variance-authority";
+import { cva } from "class-variance-authority"; 
 
 export const sheetVariants = cva(
   "fixed z-50 gap-4 bg-background p-4 shadow-sm transition ease-in-out focus:outline-none data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=open]:animate-in data-[state=closed]:animate-out",
