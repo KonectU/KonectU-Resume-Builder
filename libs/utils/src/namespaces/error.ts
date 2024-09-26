@@ -1,5 +1,5 @@
 export enum ErrorMessage {
-  InvalidCredentials = "InvalidCredentials",
+  InvalidCredentials = "InvalidCredentials", 
   UserAlreadyExists = "UserAlreadyExists",
   SecretsNotFound = "SecretsNotFound",
   OAuthUser = "OAuthUser",
