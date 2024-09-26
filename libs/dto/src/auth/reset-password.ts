@@ -6,4 +6,4 @@ export const resetPasswordSchema = z.object({
   password: z.password().min(6),
 });
 
-export class ResetPasswordDto extends createZodDto(resetPasswordSchema) {}
+export class ResetPasswordDto extends createZodDto(resetPasswordSchema) {} 
