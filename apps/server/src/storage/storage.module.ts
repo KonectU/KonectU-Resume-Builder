@@ -3,7 +3,7 @@ import { ConfigService } from "@nestjs/config";
 import type {} from "multer";
 import { MinioModule } from "nestjs-minio-client";
 
-import { Config } from "../config/schema";
+import { Config } from "../config/schema"; 
 import { StorageController } from "./storage.controller";
 import { StorageService } from "./storage.service";
 
