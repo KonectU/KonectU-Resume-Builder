@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod"; 
 
 import { certificationSchema } from "./certification";
 import { educationSchema } from "./education";
