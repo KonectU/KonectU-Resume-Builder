@@ -1,6 +1,6 @@
 import { ResumeData } from ".";
 
-export const sampleResume: ResumeData = {
+export const sampleResume: ResumeData = { 
   basics: {
     name: "John Doe",
     headline: "Creative and Innovative Web Developer",
