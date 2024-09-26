@@ -9,7 +9,7 @@
     } else {
       document.documentElement.classList.remove("dark");
     }
-  } catch {
+  } catch { //catch
     // pass
   }
 })();
