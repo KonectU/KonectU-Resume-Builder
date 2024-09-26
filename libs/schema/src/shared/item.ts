@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { idSchema } from "./id";
+import { idSchema } from "./id"; 
 
 // Schema
 export const itemSchema = z.object({
