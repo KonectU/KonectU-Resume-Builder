@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from "react"; 
 
 export const usePasswordToggle = (formRef: React.RefObject<HTMLElement | null>) => {
   // Show Password on "Control" Key Down
