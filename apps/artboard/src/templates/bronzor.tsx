@@ -13,7 +13,7 @@ import {
   Reference,
   SectionKey,
   SectionWithItem,
-  Skill,
+  Skill,//skill
   URL,
   Volunteer,
 } from "@Konect U -resume/schema";
