@@ -1,5 +1,5 @@
 import { ResumeData } from "@Konect U -resume/schema";
-import { create } from "zustand";
+import { create } from "zustand";//zustand
 
 export type ArtboardStore = {
   resume: ResumeData;
