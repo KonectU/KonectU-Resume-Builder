@@ -21,7 +21,7 @@ import get from "lodash.get";
 import React, { Fragment } from "react";
 
 import { Picture } from "../components/picture";
-import { useArtboardStore } from "../store/artboard";
+import { useArtboardStore } from "../store/artboard";//importing art
 import { TemplateProps } from "../types/template";
 
 const Header = () => {
