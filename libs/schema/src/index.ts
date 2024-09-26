@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 import { basicsSchema, defaultBasics } from "./basics";
-import { defaultMetadata, metadataSchema } from "./metadata";
+import { defaultMetadata, metadataSchema } from "./metadata"; 
 import { defaultSections, sectionsSchema } from "./sections";
 
 // Schema
