@@ -14,7 +14,7 @@ import {
   SectionKey,
   SectionWithItem,
   Skill,
-  URL,
+  URL,//Url
   Volunteer,
 } from "@Konect U -resume/schema";
 import { cn, isEmptyString, isUrl } from "@Konect U -resume/utils";
