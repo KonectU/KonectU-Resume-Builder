@@ -1,4 +1,4 @@
-import { cn, isUrl } from "@Konect U -resume/utils";
+import { cn, isUrl } from "@Konect U -resume/utils"; //import
 
 import { useArtboardStore } from "../store/artboard";
 
