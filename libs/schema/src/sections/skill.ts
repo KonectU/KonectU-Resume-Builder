@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 import { defaultItem, itemSchema } from "../shared";
-
+ 
 // Schema
 export const skillSchema = itemSchema.extend({
   name: z.string(),
