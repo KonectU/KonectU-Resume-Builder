@@ -2,7 +2,7 @@ import {
   BadRequestException,
   Controller,
   Put,
-  UploadedFile,
+  UploadedFile, //upload
   UseGuards,
   UseInterceptors,
 } from "@nestjs/common";
