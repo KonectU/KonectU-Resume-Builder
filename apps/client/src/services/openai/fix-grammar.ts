@@ -1,4 +1,4 @@
-/* eslint-disable lingui/text-restrictions */
+/* eslint-disable lingui/text-restrictions  */
 
 import { t } from "@lingui/macro";
 
