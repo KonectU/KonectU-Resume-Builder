@@ -25,7 +25,7 @@ module.exports = {
       spacing: { custom: "var(--margin)" },
       typography: () => ({
         foreground: {
-          css: {
+          css: { //css applied
             "--tw-prose-body": "var(--color-foreground)",
             "--tw-prose-headings": "var(--color-foreground)",
             "--tw-prose-lead": "var(--color-foreground)",
