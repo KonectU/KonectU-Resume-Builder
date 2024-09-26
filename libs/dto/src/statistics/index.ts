@@ -1,4 +1,4 @@
-import { createZodDto } from "nestjs-zod/dto";
+import { createZodDto } from "nestjs-zod/dto"; 
 import { z } from "nestjs-zod/z";
 
 export const statisticsSchema = z.object({
