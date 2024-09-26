@@ -3,7 +3,7 @@ import { z } from "zod";
 import { defaultItem, defaultUrl, itemSchema, urlSchema } from "../shared";
 
 // Schema
-export const customSectionSchema = itemSchema.extend({
+export const customSectionSchema = itemSchema.extend({ 
   name: z.string(),
   description: z.string(),
   date: z.string(),
