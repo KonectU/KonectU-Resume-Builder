@@ -1,4 +1,4 @@
-import { t } from "@lingui/macro";
+import { t } from "@lingui/macro"; //importing
 import { OpenAI } from "openai";
 
 import { useOpenAiStore } from "@/client/stores/openai";
