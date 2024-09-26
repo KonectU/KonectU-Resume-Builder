@@ -7,7 +7,7 @@
     "build": {
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
-      "defaultConfiguration": "production",
+      "defaultConfiguration": "production", 
       "dependsOn": ["^build"],
       "options": {
         "outputPath": "dist/apps/client"
