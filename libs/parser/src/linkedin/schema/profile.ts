@@ -4,7 +4,7 @@ export const profileSchema = z.object({
   "First Name": z.string().default("John"),
   "Last Name": z.string().default("Doe"),
   "Maiden Name": z.string().optional(),
-  Address: z.string().default("123 Example Street, Somewhere, USA"),
+  Address: z.string().default("123 Example Street, Somewhere, USA"), 
   "Birth Date": z.string().default("January 1st, 1970"),
   Headline: z.string().default(""),
   Summary: z.string().default(""),
