@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const positionSchema = z.object({
+export const positionSchema = z.object({ 
   "Company Name": z.string(),
   Title: z.string(),
   Description: z.string().optional(),
