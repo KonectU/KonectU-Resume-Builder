@@ -1,4 +1,4 @@
-import { QueryKey } from "@tanstack/react-query";
+import { QueryKey } from "@tanstack/react-query";//import
 
 export const USER_KEY: QueryKey = ["user"];
 export const AUTH_PROVIDERS_KEY: QueryKey = ["auth", "providers"];
