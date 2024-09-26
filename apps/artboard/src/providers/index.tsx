@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from "react";//using useEffect
 import { Outlet } from "react-router-dom";
 
 import { useArtboardStore } from "../store/artboard";
