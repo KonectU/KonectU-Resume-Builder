@@ -4,7 +4,7 @@ import { useMemo } from "react";
 
 import { Page } from "../components/page";
 import { useArtboardStore } from "../store/artboard";
-import { getTemplate } from "../templates";
+import { getTemplate } from "../templates";  //templates
 
 export const PreviewLayout = () => {
   const layout = useArtboardStore((state) => state.resume.metadata.layout);
