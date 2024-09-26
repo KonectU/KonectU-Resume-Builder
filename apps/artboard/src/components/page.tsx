@@ -1,6 +1,6 @@
 import { useTheme } from "@Konect U -resume/hooks";
-import { cn, pageSizeMap } from "@Konect U -resume/utils";
-
+import { cn, pageSizeMap } from "@Konect U -resume/utils";//konnectu resume
+                                                                
 import { useArtboardStore } from "../store/artboard";
 
 type Props = {
